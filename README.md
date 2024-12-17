@@ -90,7 +90,7 @@ Follow these steps to set up the Donation Portal on your local machine:
    - Replace these keys in the backend **index.js** and the frontend *Login* and *Signup* pages.  
 
 ### 7. *Generate SSL Keys*  
-   - Create private and public keys in HTTP folder for HTTPS migration:  
+   - Create private and public keys in SSL folder for HTTPS migration:  
 ```bash  
      openssl req -nodes -new -x509 -keyout localhost-key.pem -out localhost.pem -days 365  
 ```   
