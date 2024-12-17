@@ -81,6 +81,7 @@ Follow these steps to set up the Donation Portal on your local machine:
 
 ### 5. *Connect Backend to Database*  
    - Update **index.js** in the backend folder with your database credentials (username, password, etc.).
+     
      ![Connect Database](https://raw.githubusercontent.com/GlassesMan01/DonationPortal-Website/refs/heads/main/Images/Connect%20Backend%20to%20Database.png?token=GHSAT0AAAAAAC2NUTFXJUN4HKFGNSQOONS2Z3BQ2SA)
 
 
