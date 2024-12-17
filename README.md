@@ -51,8 +51,9 @@ Follow these steps to set up the Donation Portal on your local machine:
 
 ### 1. *Clone the Repository*
    ```bash  
-   git clone https://github.com/your-username/donation-portal.git  
-   cd donation-portal  
+   git clone https://github.com/GlassesMan01/DonationPortal-Website.git 
+   cd DonationPortal-Website
+   cd donationportal  
    ```  
 
 ### 2. *Install Dependencies*  
