@@ -80,14 +80,16 @@ Follow these steps to set up the Donation Portal on your local machine:
    - Create an admin account through the signup page for full admin panel access.  
 
 ### 5. *Connect Backend to Database*  
-   - Update **index.js** in the backend folder with your database credentials (username, password, etc.).  
+   - Update **index.js** in the backend folder with your database credentials (username, password, etc.).
+     ![Connect Database](https://github.com/GlassesMan01/DonationPortal-Website/tree/main/Images/Connect%20Backend%20to%20Database.png)
+
 
 ### 6. *Set Up reCAPTCHA V2*  
    - Obtain SITE and SECRET keys from Google Developers.  
    - Replace these keys in the backend **index.js** and the frontend *Login* and *Signup* pages.  
 
 ### 7. *Generate SSL Keys*  
-   - Create private and public keys for HTTPS migration:  
+   - Create private and public keys in HTTP folder for HTTPS migration:  
 ```bash  
      openssl req -nodes -new -x509 -keyout localhost-key.pem -out localhost.pem -days 365  
 ```   
